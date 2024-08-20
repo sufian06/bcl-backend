@@ -1,0 +1,37 @@
+{
+  "name": "bcl-backend",
+  "version": "1.0.0",
+  "description": "Bidirpur Cricket League",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sufian06/bcl-backend.git"
+  },
+  "keywords": [
+    "Cricket",
+    "League"
+  ],
+  "author": "Abu Sufian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sufian06/bcl-backend/issues"
+  },
+  "homepage": "https://github.com/sufian06/bcl-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status": "^1.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.3",
+    "multer": "^1.4.5-lts.1",
+    "zod": "^3.23.8"
+  }
+}
