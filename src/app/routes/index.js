@@ -1,4 +1,6 @@
 import { Router } from "express";
+import { PlayerRoute } from "../modules/player/player.route.js";
+import { TeamRouter } from "../modules/team/team.route.js";
 import { userRoute } from "../modules/user/user.route.js";
 
 const router = Router();
@@ -11,6 +13,14 @@ const moduleRoutes = [
   {
     path: "/user",
     route: userRoute,
+  },
+  {
+    path: "/player",
+    route: PlayerRoute,
+  },
+  {
+    path: "/team",
+    route: TeamRouter,
   },
 ];
 
